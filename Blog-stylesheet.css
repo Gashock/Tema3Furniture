@@ -1,5 +1,75 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
 h1{
   font-family: "oswald";
+  font-size: 36px;
   font-weight: 500;
   text-transform: uppercase;
+  line-height: 40px;
+  color: #192225;
+}
+
+h6{  /* Denne bliver brugt til knapper */
+  font-family: "oswald";
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 40px;
+  color: #192225;
+}
+
+
+p {
+  font-family: "Segoe UI";
+  font-size: 18px;
+}
+
+body{
+  background-color: #F3F3F3;
+}
+
+
+
+.artikel { /*HTML TAGGET SOM HEDDER article Drillet rigtigt meget, ved ikke hvor! Derfor denne løsning med DIV */
+  margin: 35px 5%;
+    border-bottom: solid #686868;
+
+}
+
+.articlepic {
+    width: 100%;
+      margin: 20px auto;
+    }
+
+.artknap { /* Denne bliver brugt til knapper */
+background-color: #E8E0D2;
+  margin: 20px 50px;
+  padding: 5px;
+    text-align: center;
+}
+
+
+footer {
+  color: white;
+  padding: 50px;
+  background-color: #192225;
+  text-align: center;
+}
+
+@media only screen and (min-width:500px) { /* ændre designet ved angivet px brede i browser vindue*/
+
+.artikel {
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+}
+
+@media only screen and (min-width:900px) { /* ændre designet ved angivet px brede i browser vindue*/
+
+
+
 }
