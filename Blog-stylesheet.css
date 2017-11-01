@@ -27,17 +27,24 @@ p {
   font-size: 18px;
 }
 
-body{
+
+
+.wrapper{
   background-color: #F3F3F3;
 }
 
+body{
+  background-image: url(img-index/baggrund_fuld_hd.jpg);
+  background-color: red;
+}
 
 
 .artikel { /*HTML TAGGET SOM HEDDER article Drillet rigtigt meget, ved ikke hvor! Derfor denne løsning med DIV */
-  margin: 35px 5%;
-    border-bottom: solid #686868;
-
+  margin: 0px 5%;
+  padding-top: 45px;
+  border-bottom: solid #686868;
 }
+
 
 .articlepic {
     width: 100%;
@@ -63,13 +70,29 @@ footer {
 
 .artikel {
   max-width: 500px;
-  margin: 40px auto;
+  margin: 0px auto;
+  padding-top: 40px;
 }
 
 }
 
 @media only screen and (min-width:900px) { /* ændre designet ved angivet px brede i browser vindue*/
 
+.wrapper {
+  overflow: hidden;
+  max-width: 900px;
+  margin: auto;
+  display: block;
+  background-color: #F3F3F3;
+}
 
+.artikel{
+  max-width: 35%;
+  float: left;
+  margin: 0 7.5%;
+}
 
+footer{
+  clear: left;
+}
 }
