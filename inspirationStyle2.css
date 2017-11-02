@@ -11,7 +11,15 @@
       padding-top: 15px;
       padding-left: 60px;
 }
-
+.menu{
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-bottom: -30%;
+  width: 15%;
+  height: 100%;
+  color:white;
+}
 
 header{
   padding: 2% 0% 1% 5%;
@@ -129,6 +137,15 @@ footer {
         padding-left: 120px;
   }
 
+  .menu{
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: -30%;
+    width: 15%;
+    height: 100%;
+    color:white;
+  }
 
 .wrapper {
   overflow: hidden;

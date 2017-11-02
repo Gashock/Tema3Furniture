@@ -3,6 +3,22 @@
   margin: 0px;
 }
 
+#navigation{
+      padding: 25px;
+      color: white;
+      font-weight: bolder;
+      display: inline-block;
+      padding-top: 15px;
+      padding-left: 60px;
+}
+
+
+
+header{
+  padding: 2% 0% 1% 5%;
+  background-color: #686868;
+} /*Vores header med navn*/
+
 h1{
   font-family: "oswald";
   font-size: 36px;
@@ -68,6 +84,30 @@ footer {
 
 @media only screen and (min-width:500px) { /* ændre designet ved angivet px brede i browser vindue*/
 
+  #navigation{
+        width: 100%;
+        display: inline;
+        font-family: "oswald";
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 40px;
+        color: #DCD4C6;
+        padding-top: 0%;
+        padding-bottom: -20%;
+        padding-left: 15%;
+        padding-right: 5%;
+  }
+  .menu{
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: -30%;
+    width: 15%;
+    height: 100%;
+    color:white;
+  }
+
 .artikel {
   max-width: 500px;
   margin: 0px auto;
@@ -77,6 +117,25 @@ footer {
 }
 
 @media only screen and (min-width:900px) { /* ændre designet ved angivet px brede i browser vindue*/
+
+
+  #navigation{
+        padding: 25px;
+        color: white;
+        font-weight: bolder;
+        display: inline-block;
+        padding-top: 30px;
+        padding-left: 120px;
+  }
+  .menu{
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: -30%;
+    width: 15%;
+    height: 100%;
+    color:white;
+  }
 
 .wrapper {
   overflow: hidden;
