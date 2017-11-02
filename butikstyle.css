@@ -1,0 +1,120 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+h1{
+  font-family: "oswald";
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 40px;
+  color: #192225;
+}
+
+h6{  /* Denne bliver brugt til knapper */
+  font-family: "oswald";
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 40px;
+  color: #192225;
+}
+
+
+p {
+  font-family: "Segoe UI";
+  font-size: 18px;
+}
+
+
+
+.wrapper{
+  background-color: #F3F3F3;
+}
+
+body{
+  background-image: url(img-index/baggrund_fuld_hd.jpg);
+  background-color: red;
+}
+
+
+/*.artikel {
+  margin: 0px 5%;
+  padding-top: 45px;
+  border-bottom: solid #686868;
+}*/
+
+
+/*.articlepic {
+    width: 100%;
+      margin: 20px auto;
+    }*/
+
+/*.artknap {
+background-color: #E8E0D2;
+  margin: 20px 50px;
+  padding: 5px;
+    text-align: center;
+}*/
+
+
+footer {
+  color: white;
+  padding: 50px;
+  background-color: #192225;
+  text-align: center;
+}
+
+@media only screen and (min-width:500px) { /* ændre designet ved angivet px brede i browser vindue*/
+
+/*.artikel {
+  max-width: 500px;
+  margin: 0px auto;
+  padding-top: 40px;
+}*/
+
+}
+
+@media only screen and (min-width:900px) { /* ændre designet ved angivet px brede i browser vindue*/
+
+.wrapper {
+  overflow: hidden;
+  max-width: 900px;
+  margin: auto;
+  display: block;
+  background-color: #F3F3F3;
+}
+
+/*.artikel{
+  max-width: 35%;
+  float: left;
+  margin: 0 7.5%;
+}*/
+
+/*.articlepic {
+    width: 100%;
+      margin: 20px auto;
+    }*/
+
+  .CategoryButton {
+    width: 100%;
+    margin: 25px auto;
+  }
+
+  .butikmenu{
+    max-width: 35%;
+    float: left;
+    margin: 0 7.5%;
+  }
+
+.shoptest{
+  margin: 0px 5%;
+  padding-top: 45px;
+  border-bottom: solid #686868;
+}
+
+footer{
+  clear: left;
+}
+}
