@@ -92,6 +92,22 @@ footer {
   margin: 0 7.5%;
 }
 
+.articlepic {
+    width: 100%;
+      margin: 20px auto;
+    }
+
+  .CategoryButton {
+    width: 100%;
+    margin: 25px auto;
+  }
+
+.butikmenu{
+  margin: 0px 5%;
+  padding-top: 45px;
+  border-bottom: solid #686868;
+}
+
 footer{
   clear: left;
 }
