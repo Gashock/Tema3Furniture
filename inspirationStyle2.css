@@ -3,6 +3,8 @@
   margin: 0px;
 }
 
+/* Her sætter vi rammerne og udformningen af vores navigation og menu, dette
+inkluderer headeren nedenunder. */
 #navigation{
       padding: 25px;
       color: white;
@@ -26,6 +28,8 @@ header{
   background-color: #686868;
 } /*Vores header med navn*/
 
+
+/* Her laver vi stilen til vores h1.  */
 h1{
   font-family: "oswald";
   font-size: 36px;
@@ -36,78 +40,59 @@ h1{
   text-align: center;
 }
 
-h6{  /* Denne bliver brugt til knapper */
-  font-family: "oswald";
-  font-size: 25px;
-  font-weight: 500;
-  text-transform: uppercase;
-  line-height: 40px;
-  color: #192225;
-}
-
-
+/* Dette samme for vores brødtekst her, dog med færre punkter. */
 p {
   font-family: "Segoe UI";
   font-size: 18px;
 }
 
 
-
+/* Vores wrapper har vi givet en baggrundsfarve for at skabe en side som er lettere
+at forstå end, hvis baggrundsbilledet havde været brugt hele vejen. */
 .wrapper{
   background-color: #F3F3F3;
 }
 
+/* Her sætter vi vores baggrundsbillede ind. Vi har også sat en baggrundsfarve, men
+den giver dog ingen bieffekter, da baggrundsbilledet går ind og "overwriter" det. */
 body{
   background-image: url(img-index/baggrund_fuld_hd.jpg);
   background-color: red;
 }
 
-
-.pcontent { /*HTML TAGGET SOM HEDDER article Drillet rigtigt meget, ved ikke hvor! Derfor denne løsning med DIV */
+/* primary content og billede er der hvor vi går ind og manipulerer billedernes
+størrelse og placering. */
+.pcontent {
 width: auto;
   margin: 0px 5%;
   padding-top: 5px;
   border-bottom: solid #686868;
 }
 
-
 .billede {
     width: 100%;
       margin: 20px auto;
     }
 
-.artknap { /* Denne bliver brugt til knapper */
-background-color: #E8E0D2;
-  margin: 20px 50px;
-  padding: 5px;
-    text-align: center;
-}
+/* Her bruger vi en media query for at gøre designet af siden responsiv til
+forskellige skærmstørrelser. */
+@media only screen and (min-width:500px) {
 
-
-footer {
-  color: white;
-  padding: 50px;
-  background-color: #192225;
-  text-align: center;
-}
-
-@media only screen and (min-width:500px) { /* ændre designet ved angivet px brede i browser vindue*/
-
-  #navigation{
-        width: 100%;
-        display: inline;
-        font-family: "oswald";
-        font-size: 18px;
-        font-weight: 500;
-        text-transform: uppercase;
-        line-height: 40px;
-        color: #DCD4C6;
-        padding-top: 0%;
-        padding-bottom: -20%;
-        padding-left: 15%;
-        padding-right: 5%;
+#navigation{
+    width: 100%;
+    display: inline;
+    font-family: "oswald";
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 40px;
+    color: #DCD4C6;
+    padding-top: 0%;
+    padding-bottom: -20%;
+    padding-left: 15%;
+    padding-right: 5%;
   }
-  .menu{
+.menu{
     margin-top: 0%;
     margin-left: 10%;
     margin-right: 5%;
@@ -126,8 +111,8 @@ footer {
 
 }
 
-@media only screen and (min-width:900px) { /* ændre designet ved angivet px brede i browser vindue*/
-
+/* Endnu en media query, bare for en skærm som viser flere pixels end den sidste. */
+@media only screen and (min-width:900px) {
   #navigation{
         padding: 25px;
         color: white;
@@ -163,9 +148,5 @@ footer {
   margin-top: 0%;
   margin-bottom: 0%;
   padding-top: 5px;
-}
-
-footer{
-  clear: left;
 }
 }

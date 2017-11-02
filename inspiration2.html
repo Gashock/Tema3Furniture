@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html>
+<!-- Her tilfører vi det fundementale informationer til browseren, som den skal bruge
+til at vise indholdet korrekt. -->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link rel="stylesheet" href="inspirationStyle2.css" type="text/css" />
+    <!-- Linket nedenunder er sat der for at importere en font som ikke allerede installeret
+  i de fleste browsere. -->
     <link href="https://fonts.googleapis.com/css?family=Cookie|Oswald:200,300,400,500,600,700" rel="stylesheet">
     <title>Inspiration</title>
   </head>
   <body>
 
+<!-- Her har vi sat vores navigation, som sidder i toppen af siden. -->
     <header>
       <h1><a href="FurnIndex.html">Maker Tenant</a></h1>
 
-      <nav id="navigation"> <!-- navigations bar-->
+      <nav id="navigation">
         <div>
           <a href="Butik.html"><img class="menu" alt="BUTIK"></a>
-          <a href="Inspiration.html"><img class="menu" alt="INSPIRATION"></a>
+          <a href="FurnIndex.html"><img class="menu" alt="HJEM"></a>
           <a href="Blog.html"><img class="menu" alt="BLOG"></a>
           <a href="OmOs.html"><img class="menu" alt="OM OS"></a>
         </div>
       </nav>
     </header>
 
+<!-- Vi har lavet en wrapper, for at gøre det lettere at styre størrelsen af objekter
+samt text på de forskellige størrelse af enheden. -->
 <div class="wrapper">
 
-
+<!-- Her tilføjer vi en beskrivelse af hjemmesiden. -->
 <h1>Inspirationen til din nye indretningsstil</h1>
 <p>Her finder du billeder der kan inspirere dig i din søgen på den unikke stil. <br>
 Denne side vil være opdateret med det nyeste look, som omverdenen endnu ikke kender til.
 Så lad inspirationen flyde ud i din boligindretning og vis verden hvem du er!</p>
 
-<i class="fa fa-arrow-right" aria-hidden="true"></i>
-
+<!-- Her bliver alle billederne tilføjet i forskellige klasser... Fordi det virkede, og det
+gjorde vores sidste metode ikke. -->
     <div class="pcontent">
           <img class="billede" src="inspirationsBilleder/inspiration12.jpg" alt="Inspirations Billede 1">
       </div>
@@ -56,11 +63,7 @@ Så lad inspirationen flyde ud i din boligindretning og vis verden hvem du er!</
   <img class="billede" src="inspirationsBilleder/inspiration62.jpg" alt="Inspirations Billede 6">
 </div>
 
-</div> <!-- Wrapper slut -->
-
-<footer>
-<h3>This is footer</h3>
-</footer>
+</div>
 
   </body>
 </html>
