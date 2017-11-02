@@ -1,0 +1,59 @@
+h2 {
+  text-align: center;
+  font-size: 60px;
+
+  background-color: white;
+
+}
+
+h1 {
+  font-size: 34px;
+  text-align: center;
+  background-color: grey;
+  margin: 0;
+}
+
+h3 {
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+}
+
+img {
+
+.InspirationsSideMobil {
+width: 100%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5%;
+
+}
+
+.InspirationsSideDesktop {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+
+img {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.InspirationsSideMobil {
+display: none;
+}
+
+.InspirationsSideDesktop {
+  display: block;
+  width: 900px;
+  margin: auto;
+}
+
+
+
+}
