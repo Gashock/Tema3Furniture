@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  }
+
+body{
+    background-image:url(imc/baggrund_fuld_hd.jpg);
+  margin: 0%;
+  padding: 0%;
+} /*Nulstilling af margin og padding for browser standarter*/
+
+header{
+  padding: 1% 0% 1% 0%;
+  background-image: url("imgindex/baggrund_fuld_hd.jpg");
+} /*Vores header med logo og navn*/
+
+footer{
+  left: 0;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+  padding: 1%;
+  background-color: black;
+  color: grey;
+  width: 100%;
+} /*En footer med kontakt information som er låst i bunden af siden*/
+
+.maincontent{
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+}
+
+.content {
+    font-family: "Oswald", sans-serif;
+    width: 100%;
+    float: left;
+    background-color: #FFF;
+    
+}
+
+.topcontent {
+    margin-left: 10px;
+}
+h1{
+    margin: 25px 25px 10px 25px;
+    text-align: center;
+    font-family: "Cookie";
+    font-size: 45px
+}
+
+h2{
+margin: 20px 25px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 0px 5%;
+}
+@media screen and (min-width: 750px) {
+
+
+footer{
+  clear: both;
+}
+
+.content {
+        width: 80%;
+        margin: 0% 10%;
+    padding-bottom: 20%
+    }
+    h1{
+        font-size: 70px;
+        margin: 20px;
+    }
+    h2{
+        margin: 
+    }
+
+    p{
+        margin: 0px 20%
+    }
+
+@media screen and (min-width:1100px){
+  header{
+    padding-bottom: 5%;
+}
+
+footer{
+      clear: both;
+      padding: 0.5% 0% 1% 0%;
+    }
+
+footer p{
+      display: inline;
+    }
+
+/*Display 1100px end
+Vi har valgt at dele ved 1100px da vi så er større end ipads men mindre end de fleste computerskærme*/
+
+    
