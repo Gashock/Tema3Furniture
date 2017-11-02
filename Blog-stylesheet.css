@@ -102,7 +102,13 @@ footer {
     margin: 25px auto;
   }
 
-.butikmenu{
+  .butikmenu{
+    max-width: 35%;
+    float: left;
+    margin: 0 7.5%;
+  }
+
+.shoptest{
   margin: 0px 5%;
   padding-top: 45px;
   border-bottom: solid #686868;
