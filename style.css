@@ -1,16 +1,30 @@
 *{
   box-sizing: border-box;
   }
-
+  #navigation{
+    display: none;
+    }
+  #artikel{
+    display: none;
+  }
 body{
   margin: 0%;
   padding: 0%;
+  background-image: url(img-index/baggrund_fuld_hd.jpg);
 } /*Nulstilling af margin og padding for browser standarter*/
 
 header{
-  padding: 1% 0% 1% 0%;
-  background-image: url("imgindex/baggrund_fuld_hd.jpg");
-} /*Vores header med logo og navn*/
+  padding: 2% 0% 1% 5%;
+  background-color: #686868;
+} /*Vores header med navn*/
+
+h1{
+  padding: 0% 0% 5% -5%;
+  font-size: 36px;
+  font-family: "Segoe UI";
+  color: #DCD4C6;
+  display: inline;
+} /*Navnet på virksomheden*/
 
 footer{
   left: 0;
@@ -18,26 +32,160 @@ footer{
   position: relative;
   text-align: center;
   padding: 1%;
-  background-color: black;
-  color: grey;
-  width: 100%;
+  background-color: #2a1000;
+  color: white;
+  width: auto;
 } /*En footer med kontakt information som er låst i bunden af siden*/
+
+
+#butik{
+  width: 100%;
+}
+
+figure{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-top: 1%;
+} /*Det store billede på vores forside*/
+
+
+#inspiration{
+  width: 100%;
+}
+
+figure{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-top: 1%;
+} /*Det store billede på vores forside*/
+
+
+#blog{
+  width: 100%;
+}
+
+figure{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-top: 1%;
+} /*Det store billede på vores forside*/
+
+#omos{
+  width: 100%;
+}
+
+figure{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-top: 1%;
+} /*Det store billede på vores forside*/
 
 figcaption{
   position: absolute;
-  left: 0px;
-  bottom: 77%;
+  left: 0%;
+  bottom: 30%;
   width: 100%;
   text-align: center;
-  font-family: monotype-corsiva;
-  font-style: italic;
-  font-size: 165%;
+  font-family: "oswald";
+  font-size: 150%;
   color: white;
 } /*Teksten inde på vores forside billede*/
 
+footer{
+  clear: both;
+}
+
 @media screen and (min-width: 750px) {
-header{
-  padding-bottom: 5%;
+
+#navigation{
+      width: 100%;
+      display: inline;
+      font-family: "oswald";
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 40px;
+      color: #DCD4C6;
+      padding-top: 0%;
+      padding-bottom: -20%;
+      padding-left: 15%;
+      padding-right: 5%;
+}
+.menu{
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-bottom: -30%;
+  width: 15%;
+  height: 100%;
+  color:white;
+}
+
+#artikel{
+  display: inline;
+}
+
+h2{
+  font-family: "oswald";
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 40px;
+  color: #192225;
+}
+
+}
+.wrapper{
+  background-color: #F3F3F3;
+}
+.artikel { /*HTML TAGGET SOM HEDDER article Drillet rigtigt meget, ved ikke hvor! Derfor denne løsning med DIV */
+  margin: 0px 5%;
+  padding-top: 45px;
+  border-bottom: solid #686868;
+  clear: both;
+  text-align: center;
+}
+
+.pic {
+    width: auto;
+    height: 500px;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-top: 0%;
+      margin-bottom: 2%;
+      float: center;
+    }
+
+#butik{
+  display: none;
+}
+#inspiration{
+  display: none;
+}
+#blog{
+  display: none;
+}
+#omos{
+  display: none;
+}
+#front{
+  display: none;
 }
 
 footer{
@@ -47,8 +195,17 @@ footer{
 
 @media screen and (min-width:1100px){
   header{
-    padding-bottom: 5%;
+    padding-bottom: 0%;
 }
+#navigation{
+      padding: 25px;
+      color: white;
+      font-weight: bolder;
+      display: inline-block;
+      padding-top: 30px;
+      padding-left: 120px;
+}
+
 
 footer{
       clear: both;
@@ -60,4 +217,4 @@ footer p{
     }
 
 /*Display 1100px end
-Vi har valgt at dele ved 1100px da vi så er større end ipads men mindre end de fleste computerskærme*/
+Jeg har valgt at dele ved 1100px da jeg så er større end ipads men mindre end de fleste computerskærme*/
